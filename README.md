@@ -20,7 +20,7 @@
 
 2. Make the script executable:
    ```bash
-   chmod +x creditals_scanner.py
+   chmod +x credential_scanner.py
    ```
 
 3. Install the required dependencies:
@@ -34,27 +34,27 @@ Run the script using the command line:
 
 - **Scan a local directory:**
   ```bash
-  python3 creditals_scanner.py
+  python3 credential_scanner.py
   ```
 
 - **Scan a single URL:**
   ```bash
-  python3 creditals_scanner.py -u https://example.com
+  python3 credential_scanner.py -u https://example.com
   ```
 
 - **Scan multiple URLs from a file:**
   ```bash
-  python3 creditals_scanner.py -t urls.txt
+  python3 credential_scanner.py -t urls.txt
   ```
 
 - **Save results to a file:**
   ```bash
-  python3 creditals_scanner.py -o results.txt
+  python3 credential_scanner.py -o results.txt
   ```
 
 - **Enable verbose output and specify a temporary directory:**
   ```bash
-  python3 creditals_scanner.py -u https://example.com -v -d /tmp/js_scan
+  python3 credential_scanner.py -u https://example.com -v -d /tmp/js_scan
   ```
 
 ### Command-Line Options
@@ -70,12 +70,12 @@ Run the script using the command line:
 
 - **Scan URL and save the output:**
   ```bash
-  python3 creditals_scanner.py -u urls.txt -o output.txt
+  python3 credential_scanner.py -u urls.txt -o output.txt
   ```
 
 - **Scan multiple URLs and save the output:**
   ```bash
-  python3 creditals_scanner.py -t urls.txt -o output.txt
+  python3 credential_scanner.py -t urls.txt -o output.txt
   ```
 
 ## License
