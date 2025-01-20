@@ -70,7 +70,7 @@ Run the script using the command line:
 
 - **Scan URL and save the output:**
   ```bash
-  python3 credential_scanner.py -u urls.txt -o output.txt
+  python3 credential_scanner.py -u url -o output.txt
   ```
 
 - **Scan multiple URLs and save the output:**
